@@ -11,6 +11,13 @@
   background: transparent;
 }
 
+#landing {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-color: rgb(29, 29, 29);
+}
+
 /* *********************home component********************************* */
 #tsparticles {
   height: 100%;
