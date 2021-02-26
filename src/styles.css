@@ -18,6 +18,11 @@
   background-color: rgb(29, 29, 29);
 }
 
+#intro {
+  color: #ffffff;
+  font-size: 75px;
+}
+
 /* *********************home component********************************* */
 #tsparticles {
   height: 100%;
