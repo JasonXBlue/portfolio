@@ -8,6 +8,7 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { HomeComponent } from './home/home.component';
 import { HometestComponent } from './hometest/hometest.component';
 import { Test1Component } from './test1/test1.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { Test1Component } from './test1/test1.component';
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    NgParticlesModule
+    NgParticlesModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
