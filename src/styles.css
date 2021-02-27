@@ -11,14 +11,22 @@
   background: transparent;
 }
 
-#landing {
+/* #site {
   height: 100%;
   width: 100%;
   position: fixed;
   background-color: rgb(29, 29, 29);
+} */
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: rgb(29, 29, 29);
 }
 
-#intro {
+.site-content {
+  flex: 1;
   color: #ffffff;
   font-size: 75px;
 }
